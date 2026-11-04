@@ -20,8 +20,12 @@
 | 1 | VL53L5CX 8×8 测距模块 | [Pololu #3417](https://www.pololu.com/product/3417) |
 | 1 | AM312 微型人体红外模块，需能在 3.3V 工作 | [TinyTronics AM312](https://www.tinytronics.nl/en/sensors/motion/ir-pyroelectric-infrared-pir-motion-sensor-detector-module-mini) |
 | 1 | 共阴红黄绿信号灯，高电平点亮，模块自带限流电阻 | [Cytron 交通灯模块](https://www.cytron.io/p-traffic-light-led-module) |
+| 1 包 | 母对母杜邦线，2.54mm。门后用 4 根，门前用 7 根 | [Seeed 母对母杜邦线，100mm，50 根](https://www.seeedstudio.com/1-pin-dual-female-jumper-wire-100mm-50pcs-pack-p-260.html) |
+| 1 包 | XIAO 两侧 7 针排针。两块板共 4 排 | [Seeed XIAO 7 针排针，5 条](https://www.seeedstudio.com/XIAO-Series-7-Pin-Male-Header-5-pcs-p-5460.html) |
+| 1 条 | 测距模块用的 2.54mm 单排针，至少 6 位。可从 40 位排针上剪下来 | [SparkFun 40 位排针](https://www.sparkfun.com/products/116) |
+| 2 | USB-C 数据线，用来供电和烧录 | [Seeed USB-C 转 USB-A，1 米](https://www.seeedstudio.com/USB-3-1-Type-C-to-A-Cable-1-Meter-3-1A-p-4085.html) |
 
-调试时两块板都用 USB-C 供电。排针要焊牢，不能只把杜邦线插在孔里。改接线前先拔掉 USB。
+调试时两块板都用 USB-C 供电。排针先焊在开发板和测距模块上，再用母对母杜邦线连接，不能只把线插在未焊接的孔里。改接线前先拔掉 USB。电烙铁和焊锡按手头现有的用即可。
 
 下面两张接线图按这块六针测距模块绘制，引脚从上到下是 VIN、GND、SCL、SDA、INT、LPn。Pololu #3417 是同一颗传感器的载板，引脚排列不同，买到后按载板丝印接线，不要照着这张图的孔位插。信号灯和红外模块也以板上的字母为准，不按灯珠排列或导线颜色判断。
 

@@ -8,7 +8,9 @@ def text(x,y,t,size=22,color='#20354b'):
 def box(x,y,w,h,color,stroke='none'):
     s.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="14" fill="{color}" stroke="{stroke}"/>')
 def line(points,color,dash=False):
-    s.append(f'<polyline points="{" ".join(f"{x},{y}" for x,y in points)}" fill="none" stroke="{color}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"'+(' stroke-dasharray="10 8"' if dash else '')+'/>')
+    pts=" ".join(f"{x},{y}" for x,y in points)
+    dash_attr=' stroke-dasharray="10 8"' if dash else ''
+    s.append(f'<polyline points="{pts}" fill="none" stroke="{color}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"{dash_attr}/>')
 def pad(x,y):
     s.append(f'<circle cx="{x}" cy="{y}" r="10" fill="#edcc78" stroke="#98712a" stroke-width="2"/>')
 def dot(x,y):
@@ -78,7 +80,7 @@ rows=[('AM312 VCC → 3V3','AM312 OUT → D2 / GPIO4','AM312 GND → GND'),('信
 for j,row in enumerate(rows):
     for i,t in enumerate(row):text(65+i*505,1020+j*42,t,22)
 text(65,1110,'信号灯 GND → GND；G是绿灯输入，GND才是接地。线交叉无圆点表示不相连。',22)
-text(65,1148,'AM312须支持3.3V供电；信号灯3.3V亮度待实测。改接线前拔掉USB。外设尚未实物验证。',20,'#965814')
+text(65,1148,'AM312 接 3.3V。信号灯为共阴且须自带限流电阻。改接线前拔掉 USB。',20,'#965814')
 text(60,1202,'按XIAO ESP32-C3引脚绘制；若开发板外形/丝印不同，请勿照图直接接线。',20)
 s.append('</svg>')
 svg='\n'.join(s)

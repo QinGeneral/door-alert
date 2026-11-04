@@ -8,7 +8,9 @@ def text(x,y,t,size=22,color='#20354b'):
 def box(x,y,w,h,c,stroke='none'):
  s.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="14" fill="{c}" stroke="{stroke}"/>')
 def line(p,c,dash=False):
- s.append(f'<polyline points="{" ".join(f"{x},{y}" for x,y in p)}" fill="none" stroke="{c}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"'+(' stroke-dasharray="12 9"' if dash else '')+'/>')
+ pts=" ".join(f"{x},{y}" for x,y in p)
+ dash=' stroke-dasharray="12 9"' if dash else ''
+ s.append(f'<polyline points="{pts}" fill="none" stroke="{c}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"{dash}/>')
 def pad(x,y):
  s.append(f'<circle cx="{x}" cy="{y}" r="10" fill="#edcc78" stroke="#98712a" stroke-width="2"/>')
 text(55,60,'门后设备 · 按实物丝印更新',36)
@@ -53,7 +55,7 @@ text(410,896,'GND → GND',24)
 text(760,896,'D4 → SDA',24,'#2679d6')
 text(1110,896,'D5 → SCL',24,'#9854be')
 text(60,941,'* 电源为3.3V初步联调方案，不能仅凭照片确认整板额定参数；勿改接5V。',22,'#a26210')
-text(60,980,'INT留空；LPn先留空，若通信扫描失败再核对其上拉电路。未验证实际测距。',21)
+text(60,980,'INT 与 LPn 留空。VIN 只接 3V3，不要改接 5V。',21)
 text(55,1045,'两块主板之间使用ESP-NOW无线通信，不接导线、不共地；改接线前断开USB。',21)
 s.append('</svg>')
 svg='\n'.join(s)
