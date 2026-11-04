@@ -33,7 +33,7 @@
 
 开发板正面朝向自己，USB 朝上。测距模块 VIN 接 3V3，不要接 5V。INT 和 LPn 留空。
 
-![门后接线：XIAO ESP32-C3 与 VL53L5CX](docs/rear-wiring.png)
+![门后接线：XIAO ESP32-C3 与 VL53L5CX](docs/rear-wiring-v2.png)
 
 | 测距模块 | XIAO ESP32-C3 |
 | --- | --- |
@@ -48,7 +48,7 @@
 
 开发板正面朝向自己，USB 朝上。AM312 的 VCC 接 3V3。信号灯是共阴：R、Y、G 是三色输入，GND 才是地。模块上如果把绿灯和地都标成 G，先对一下丝印，地线接到 GND。
 
-![门前接线：XIAO ESP32-C3、AM312 与共阴信号灯](docs/front-wiring.png)
+![门前接线：XIAO ESP32-C3、AM312 与共阴信号灯](docs/front-wiring-v2.png)
 
 | 外设 | XIAO ESP32-C3 |
 | --- | --- |
