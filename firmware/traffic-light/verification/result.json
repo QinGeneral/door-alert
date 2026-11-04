@@ -1,0 +1,72 @@
+{
+  "port": "/dev/cu.usbmodem101",
+  "passed": true,
+  "events": [
+    {
+      "color": "RED",
+      "gpio": 21,
+      "uptime_ms": 7,
+      "cycle": 0
+    },
+    {
+      "color": "YELLOW",
+      "gpio": 20,
+      "uptime_ms": 1007,
+      "cycle": 0
+    },
+    {
+      "color": "GREEN",
+      "gpio": 10,
+      "uptime_ms": 2007,
+      "cycle": 0
+    },
+    {
+      "color": "RED",
+      "gpio": 21,
+      "uptime_ms": 3007,
+      "cycle": 1
+    },
+    {
+      "color": "YELLOW",
+      "gpio": 20,
+      "uptime_ms": 4007,
+      "cycle": 1
+    },
+    {
+      "color": "GREEN",
+      "gpio": 10,
+      "uptime_ms": 5007,
+      "cycle": 1
+    },
+    {
+      "color": "RED",
+      "gpio": 21,
+      "uptime_ms": 6008,
+      "cycle": 2
+    },
+    {
+      "color": "YELLOW",
+      "gpio": 20,
+      "uptime_ms": 7008,
+      "cycle": 2
+    },
+    {
+      "color": "GREEN",
+      "gpio": 10,
+      "uptime_ms": 8009,
+      "cycle": 2
+    },
+    {
+      "color": "RED",
+      "gpio": 21,
+      "uptime_ms": 9009,
+      "cycle": 3
+    }
+  ],
+  "checks": [
+    "color_order",
+    "pin_mapping",
+    "1000ms_interval"
+  ],
+  "boundary": "Serial output verified; emitted light not observed by host."
+}

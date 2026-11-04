@@ -1,0 +1,19 @@
+{"fw": "vl53-i2c-only-v1", "mac": "ac:27:6e:7f:c3:b4", "wifi_enabled": false}
+{"event": "initializing_ranging_without_wifi"}
+{"event": "ranging_init", "ok": true}
+{"event": "ranging_data", "frames": 10, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 20, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 30, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 40, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 50, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 60, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 70, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 80, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 90, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 100, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 110, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 120, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 130, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 140, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 150, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 160, "valid": 0, "nearest_mm": 0}

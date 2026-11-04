@@ -1,0 +1,23 @@
+{
+  "front_records": 49,
+  "rear_records": 47,
+  "front_displays": [
+    "RED",
+    "UNKNOWN"
+  ],
+  "rear_states": [
+    "OCCUPIED",
+    "SENSOR_ERROR",
+    "STARTING"
+  ],
+  "fresh_status_received": true,
+  "front_rx_max": 267,
+  "rear_rx_max": 48,
+  "front_pir_values": [
+    0,
+    1
+  ],
+  "rear_frame_max": 425,
+  "green_safety_invariants_passed": true,
+  "boundary": "USB-connected desktop test; physical installation and battery sleep not tested."
+}

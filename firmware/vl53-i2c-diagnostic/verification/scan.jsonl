@@ -1,0 +1,28 @@
+{"event": "scan", "sda_gpio": 7, "scl_gpio": 6, "hz": 100000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": []}
+{"event": "scan", "sda_gpio": 7, "scl_gpio": 6, "hz": 400000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": []}
+{"event": "scan", "sda_gpio": 6, "scl_gpio": 7, "hz": 100000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": [41]}
+{"event": "sensor_id", "id": 240, "revision": 2, "matches_vl53l5cx": true, "bank_restored": true}
+{"event": "scan", "sda_gpio": 6, "scl_gpio": 7, "hz": 400000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": [41]}
+{"event": "sensor_id", "id": 240, "revision": 2, "matches_vl53l5cx": true, "bank_restored": true}
+{"event": "scan", "sda_gpio": 7, "scl_gpio": 6, "hz": 100000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": []}
+{"event": "scan", "sda_gpio": 7, "scl_gpio": 6, "hz": 400000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": []}
+{"event": "scan", "sda_gpio": 6, "scl_gpio": 7, "hz": 100000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": [41]}
+{"event": "sensor_id", "id": 240, "revision": 2, "matches_vl53l5cx": true, "bank_restored": true}
+{"event": "scan", "sda_gpio": 6, "scl_gpio": 7, "hz": 400000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": [41]}
+{"event": "sensor_id", "id": 240, "revision": 2, "matches_vl53l5cx": true, "bank_restored": true}
+{"event": "scan", "sda_gpio": 7, "scl_gpio": 6, "hz": 100000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": []}
+{"fw": "vl53-i2c-only-v1", "mac": "ac:27:6e:7f:c3:b4", "wifi_enabled": false}
+{"event": "scan", "sda_gpio": 6, "scl_gpio": 7, "hz": 100000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": [41]}
+{"event": "sensor_id", "id": 240, "revision": 2, "matches_vl53l5cx": true, "bank_restored": true}
+{"event": "scan", "sda_gpio": 6, "scl_gpio": 7, "hz": 400000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": [41]}
+{"event": "sensor_id", "id": 240, "revision": 2, "matches_vl53l5cx": true, "bank_restored": true}
+{"event": "scan", "sda_gpio": 7, "scl_gpio": 6, "hz": 100000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": []}
+{"event": "scan", "sda_gpio": 7, "scl_gpio": 6, "hz": 400000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": []}
+{"event": "scan", "sda_gpio": 6, "scl_gpio": 7, "hz": 100000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": [41]}
+{"event": "sensor_id", "id": 240, "revision": 2, "matches_vl53l5cx": true, "bank_restored": true}
+{"event": "scan", "sda_gpio": 6, "scl_gpio": 7, "hz": 400000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": [41]}
+{"event": "sensor_id", "id": 240, "revision": 2, "matches_vl53l5cx": true, "bank_restored": true}
+{"event": "scan", "sda_gpio": 7, "scl_gpio": 6, "hz": 100000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": []}
+{"event": "scan", "sda_gpio": 7, "scl_gpio": 6, "hz": 400000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": []}
+{"event": "scan", "sda_gpio": 6, "scl_gpio": 7, "hz": 100000, "bus_started": true, "sda_level": 1, "scl_level": 1, "addresses": [41]}
+{"event": "sensor_id", "id": 240, "revision": 2, "matches_vl53l5cx": true, "bank_restored": true}

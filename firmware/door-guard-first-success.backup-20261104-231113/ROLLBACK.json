@@ -1,0 +1,18 @@
+{
+  "basis": "Reconstructed from first successful paired source in this conversation, not an archived original binary",
+  "reverted": [
+    "later I2C scan diagnostics",
+    "Serial TX buffer/timeout modifications",
+    "later combined packet+frame age limit"
+  ],
+  "unchanged": [
+    "SparkFun driver commit",
+    "pin assignments",
+    "ESP-NOW channel/protocol and keys",
+    "400kHz I2C",
+    "64-zone 10Hz ranging",
+    "detection thresholds",
+    "NVS settings"
+  ],
+  "reason": "User requested rollback for hardware/software comparison"
+}

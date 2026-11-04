@@ -1,0 +1,17 @@
+{"fw": "vl53-i2c-only-v1", "mac": "ac:27:6e:7f:c3:b4", "wifi_enabled": false}
+{"event": "initializing_ranging_without_wifi"}
+{"event": "ranging_init", "ok": true}
+{"event": "ranging_data", "frames": 10, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 20, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 30, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 15, "raw_min_mm": 20, "raw_max_mm": 43, "status_counts": {"5": 15, "255": 49}}
+{"event": "ranging_data", "frames": 40, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 50, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 60, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 15, "raw_min_mm": 18, "raw_max_mm": 44, "status_counts": {"5": 15, "255": 49}}
+{"event": "ranging_data", "frames": 70, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 80, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 90, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 15, "raw_min_mm": 20, "raw_max_mm": 2549, "status_counts": {"4": 1, "5": 14, "255": 49}}
+{"event": "ranging_data", "frames": 100, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 110, "valid": 0, "nearest_mm": 0}

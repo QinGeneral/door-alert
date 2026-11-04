@@ -1,0 +1,64 @@
+{"event": "ranging_data", "frames": 220, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 230, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 240, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 9, "raw_min_mm": 19, "raw_max_mm": 44, "status_counts": {"5": 9, "255": 55}}
+{"event": "ranging_data", "frames": 250, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 260, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 270, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 9, "raw_min_mm": 21, "raw_max_mm": 928, "status_counts": {"4": 1, "5": 8, "255": 55}}
+{"event": "ranging_data", "frames": 280, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 290, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 300, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 8, "raw_min_mm": 18, "raw_max_mm": 45, "status_counts": {"5": 8, "255": 56}}
+{"event": "ranging_data", "frames": 310, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 320, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 330, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 7, "raw_min_mm": 20, "raw_max_mm": 45, "status_counts": {"5": 7, "255": 57}}
+{"event": "ranging_data", "frames": 340, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 350, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 360, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 7, "raw_min_mm": 20, "raw_max_mm": 43, "status_counts": {"5": 7, "255": 57}}
+{"event": "ranging_data", "frames": 370, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 380, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 390, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 7, "raw_min_mm": 19, "raw_max_mm": 45, "status_counts": {"5": 7, "255": 57}}
+{"event": "ranging_data", "frames": 400, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 410, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 420, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 6, "raw_min_mm": 17, "raw_max_mm": 44, "status_counts": {"5": 6, "255": 58}}
+{"event": "ranging_data", "frames": 430, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 440, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 450, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 5, "raw_min_mm": 19, "raw_max_mm": 44, "status_counts": {"5": 5, "255": 59}}
+{"event": "ranging_data", "frames": 460, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 470, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 480, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 4, "raw_min_mm": 20, "raw_max_mm": 978, "status_counts": {"4": 1, "5": 3, "255": 60}}
+{"event": "ranging_data", "frames": 490, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 500, "valid": 0, "nearest_mm": 0}
+{"event": "ranging_data", "frames": 510, "valid": 0, "nearest_mm": 0}
+{"event": "raw_status", "zones_with_target": 3, "raw_min_mm": 19, "raw_max_mm": 43, "status_counts": {"5": 3, "255": 61}}
+{"fw": "vl53-i2c-only-v1", "mac": "ac:27:6e:7f:c3:b4", "wifi_enabled": false}
+{"event": "initializing_ranging_without_wifi"}
+{"event": "ranging_init", "ok": true}
+{"event": "ranging_data", "frames": 10, "valid": 64, "nearest_mm": 429}
+{"event": "ranging_data", "frames": 20, "valid": 59, "nearest_mm": 429}
+{"event": "ranging_data", "frames": 30, "valid": 58, "nearest_mm": 425}
+{"event": "raw_status", "zones_with_target": 58, "raw_min_mm": 425, "raw_max_mm": 548, "status_counts": {"5": 58, "255": 6}}
+{"event": "ranging_data", "frames": 40, "valid": 58, "nearest_mm": 424}
+{"event": "ranging_data", "frames": 50, "valid": 60, "nearest_mm": 432}
+{"event": "ranging_data", "frames": 60, "valid": 60, "nearest_mm": 431}
+{"event": "raw_status", "zones_with_target": 60, "raw_min_mm": 431, "raw_max_mm": 522, "status_counts": {"5": 60, "255": 4}}
+{"event": "ranging_data", "frames": 70, "valid": 61, "nearest_mm": 429}
+{"event": "ranging_data", "frames": 80, "valid": 60, "nearest_mm": 430}
+{"event": "ranging_data", "frames": 90, "valid": 60, "nearest_mm": 428}
+{"event": "raw_status", "zones_with_target": 60, "raw_min_mm": 428, "raw_max_mm": 534, "status_counts": {"5": 60, "255": 4}}
+{"event": "ranging_data", "frames": 100, "valid": 61, "nearest_mm": 428}
+{"event": "ranging_data", "frames": 110, "valid": 63, "nearest_mm": 426}
+{"event": "ranging_data", "frames": 120, "valid": 60, "nearest_mm": 429}
+{"event": "raw_status", "zones_with_target": 60, "raw_min_mm": 429, "raw_max_mm": 532, "status_counts": {"5": 60, "255": 4}}
+{"event": "ranging_data", "frames": 130, "valid": 60, "nearest_mm": 429}
+{"event": "ranging_data", "frames": 140, "valid": 61, "nearest_mm": 429}
+{"event": "ranging_data", "frames": 150, "valid": 62, "nearest_mm": 428}
+{"event": "raw_status", "zones_with_target": 62, "raw_min_mm": 428, "raw_max_mm": 535, "status_counts": {"5": 62, "255": 2}}
+{"event": "ranging_data", "frames": 160, "valid": 60, "nearest_mm": 427}

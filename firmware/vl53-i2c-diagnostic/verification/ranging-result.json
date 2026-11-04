@@ -1,0 +1,11 @@
+{
+  "init_ok": true,
+  "records": 16,
+  "max_frames": 160,
+  "nearest_mm": [
+    0
+  ],
+  "valid_zones": [
+    0
+  ]
+}

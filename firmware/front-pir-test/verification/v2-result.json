@@ -1,0 +1,14 @@
+{
+  "records": 47,
+  "states": [
+    "IDLE",
+    "WARMUP"
+  ],
+  "ready_raw_levels": [
+    0
+  ],
+  "motion_observed": false,
+  "idle_observed": true,
+  "first_ms": 0,
+  "last_ms": 45041
+}

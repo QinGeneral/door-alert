@@ -1,0 +1,63 @@
+Processing rear (platform: espressif32@8.0.0; board: seeed_xiao_esp32c3; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/seeed_xiao_esp32c3.html
+PLATFORM: Espressif 32 (8.0.0) > Seeed Studio XIAO ESP32C3
+HARDWARE: ESP32C3 160MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 4.30312.261024 (3.3.12) 
+ - framework-arduinoespressif32-esp32c3-libs @ 3.3.12 
+ - tool-esptool @ 2.50400.0 (5.4.0) 
+ - toolchain-riscv32-esp @ 14.2.0+20260121
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 45 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- WiFi @ 3.3.12
+|-- Preferences @ 3.3.12
+|-- SparkFun VL53L5CX Arduino Library @ 1.0.3
+|-- Wire @ 3.3.12
+Building in release mode
+Retrieving maximum program size .pio/build/rear/firmware.elf
+Checking size .pio/build/rear/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]  11.8% (used 38780 bytes from 327680 bytes)
+Flash: [========  ]  84.4% (used 1105809 bytes from 1310720 bytes)
+========================= [SUCCESS] Took 0.80 seconds =========================
+
+Processing front (platform: espressif32@8.0.0; board: seeed_xiao_esp32c3; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/seeed_xiao_esp32c3.html
+PLATFORM: Espressif 32 (8.0.0) > Seeed Studio XIAO ESP32C3
+HARDWARE: ESP32C3 160MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 4.30312.261024 (3.3.12) 
+ - framework-arduinoespressif32-esp32c3-libs @ 3.3.12 
+ - tool-esptool @ 2.50400.0 (5.4.0) 
+ - toolchain-riscv32-esp @ 14.2.0+20260121
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 44 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- WiFi @ 3.3.12
+|-- Preferences @ 3.3.12
+|-- Wire @ 3.3.12
+Building in release mode
+Compiling .pio/build/front/src/main.cpp.o
+Retrieving maximum program size .pio/build/front/firmware.elf
+Checking size .pio/build/front/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]  11.0% (used 35908 bytes from 327680 bytes)
+Flash: [=======   ]  74.2% (used 973163 bytes from 1310720 bytes)
+========================= [SUCCESS] Took 1.37 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+rear           SUCCESS   00:00:00.801
+front          SUCCESS   00:00:01.367
+========================= 2 succeeded in 00:00:02.167 =========================

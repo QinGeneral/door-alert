@@ -1,0 +1,28 @@
+{
+  "version": "door-guard-1.0",
+  "boards": {
+    "front": {
+      "mac": "ac:27:6e:7f:d3:20",
+      "file": "front.bin",
+      "flash_offset": "0x0",
+      "size": 1068704,
+      "sha256": "9d01003baf7376b3f23a544a57823655e12cc59e6928da9680357af80f125743",
+      "application_sha256": "8f7d242722ecc92ce1296652abf658b5f038bdc0d6edf8b9a71ed7d1e12415c0"
+    },
+    "rear": {
+      "mac": "ac:27:6e:7f:c3:b4",
+      "file": "rear.bin",
+      "flash_offset": "0x0",
+      "size": 1205456,
+      "sha256": "4a02c097e5aedca7a9983c95a59568e15a9c1ac1a1ff5182fe1a295f87b50ff8",
+      "application_sha256": "e649d3f03835fa55ad2230a42ea855fe23b8f6b00fd6126991125605e04735bd"
+    }
+  },
+  "driver_commit": "248607060e49d18bdf064c6aa411ffe515993d16",
+  "default_mode": "DESK, <=1000mm adjacent foreground",
+  "unverified": [
+    "Installed door coverage and calibration",
+    "Battery power sleep/wake and endurance"
+  ],
+  "acceptance_notes": "See verification/ACCEPTANCE.md for current hardware status; binaries are not a physical installation certification."
+}

@@ -1,0 +1,129 @@
+Processing front (platform: espressif32@8.0.0; board: seeed_xiao_esp32c3; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/seeed_xiao_esp32c3.html
+PLATFORM: Espressif 32 (8.0.0) > Seeed Studio XIAO ESP32C3
+HARDWARE: ESP32C3 160MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 4.30312.261024 (3.3.12) 
+ - framework-arduinoespressif32-esp32c3-libs @ 3.3.12 
+ - tool-esptool @ 2.50400.0 (5.4.0) 
+ - tool-mkfatfs @ 2.0.1 
+ - tool-mklittlefs @ 1.203.210628 (2.3) 
+ - tool-mkspiffs @ 2.230.0 (2.30) 
+ - toolchain-riscv32-esp @ 14.2.0+20260121
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 44 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- WiFi @ 3.3.12
+|-- Preferences @ 3.3.12
+|-- Wire @ 3.3.12
+Building in release mode
+Retrieving maximum program size .pio/build/front/firmware.elf
+Checking size .pio/build/front/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]  11.0% (used 35908 bytes from 327680 bytes)
+Flash: [=======   ]  74.2% (used 973163 bytes from 1310720 bytes)
+Configuring upload protocol...
+AVAILABLE: cmsis-dap, esp-bridge, esp-builtin, esp-prog, espota, esptool, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa
+CURRENT: upload_protocol = esptool
+Looking for upload port...
+Using manually specified: /dev/cu.usbmodem101
+Uploading .pio/build/front/firmware.bin
+esptool v5.4.0
+Serial port /dev/cu.usbmodem101:
+Connecting.....
+Connected to ESP32-C3 on /dev/cu.usbmodem101:
+Chip type:          ESP32-C3 (QFN32) (revision v0.4)
+Features:           Wi-Fi, BT 5 (LE), Single Core, 160MHz, Embedded Flash 4MB (XMC)
+Crystal frequency:  40MHz
+USB mode:           USB-Serial/JTAG
+MAC:                ac:27:6e:7f:d3:20
+
+Uploading stub flasher...
+Running stub flasher...
+Stub flasher running.
+Changing baud rate to 460800...
+Changed.
+
+Configuring flash size...
+
+Writing '/Users/hanzhang/Projects/MyPlaygroud/door-alert/firmware/door-guard/.pio/build/front/bootloader.bin' at 0x00000000...
+SHA digest in image updated.
+Flash will be erased from 0x00000000 to 0x00004fff...
+Compressed 19536 bytes to 12717...
+Writing at 0x00004c50 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.0% 12.42kB/12.42kB [0s] 
+Wrote 19536 bytes (12717 compressed) at 0x00000000 in 0.2 seconds (1035.0 kbit/s).
+Verifying written data...
+Hash of data verified.
+
+Writing '/Users/hanzhang/Projects/MyPlaygroud/door-alert/firmware/door-guard/.pio/build/front/partitions.bin' at 0x00008000...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 3072 bytes to 146...
+Writing at 0x00008c00 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.0% 146B/146B [0s] 
+Wrote 3072 bytes (146 compressed) at 0x00008000 in 0.0 seconds (614.2 kbit/s).
+Verifying written data...
+Hash of data verified.
+
+Writing '/Users/hanzhang/Projects/MyPlaygroud/door-alert/.platformio/packages/framework-arduinoespressif32/tools/partitions/boot_app0.bin' at 0x0000e000...
+Flash will be erased from 0x0000e000 to 0x0000ffff...
+Compressed 8192 bytes to 47...
+Writing at 0x00010000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.0% 47B/47B [0s] 
+Wrote 8192 bytes (47 compressed) at 0x0000e000 in 0.0 seconds (1338.1 kbit/s).
+Verifying written data...
+Hash of data verified.
+
+Writing '.pio/build/front/firmware.bin' at 0x00010000...
+Flash will be erased from 0x00010000 to 0x00104fff...
+Compressed 1003168 bytes to 600423...
+Writing at 0x0001bff6 ╸                                2.7% 16.00kB/586.35kB [0s] 
+Writing at 0x00026a14 ━╸                               5.5% 32.00kB/586.35kB [0s] 
+Writing at 0x0002f8b8 ━━                               8.2% 48.00kB/586.35kB [0s] 
+Writing at 0x000391df ━━━                             10.9% 64.00kB/586.35kB [0s] 
+Writing at 0x0003f230 ━━━━                            13.6% 80.00kB/586.35kB [1s] 
+Writing at 0x00047bbe ━━━━╸                           16.4% 96.00kB/586.35kB [1s] 
+Writing at 0x000500bf ━━━━━╸                          19.1% 112.00kB/586.35kB [1s] 
+Writing at 0x000561ed ━━━━━━╸                         21.8% 128.00kB/586.35kB [1s] 
+Writing at 0x0005c62c ━━━━━━━                         24.6% 144.00kB/586.35kB [1s] 
+Writing at 0x00062d02 ━━━━━━━━                        27.3% 160.00kB/586.35kB [1s] 
+Writing at 0x00068f4d ━━━━━━━━━                       30.0% 176.00kB/586.35kB [1s] 
+Writing at 0x0006f1ee ━━━━━━━━━╸                      32.7% 192.00kB/586.35kB [1s] 
+Writing at 0x00074d64 ━━━━━━━━━━╸                     35.5% 208.00kB/586.35kB [2s] 
+Writing at 0x0007adbb ━━━━━━━━━━━                     38.2% 224.00kB/586.35kB [2s] 
+Writing at 0x00080b9a ━━━━━━━━━━━━                    40.9% 240.00kB/586.35kB [2s] 
+Writing at 0x0008660a ━━━━━━━━━━━━━                   43.7% 256.00kB/586.35kB [2s] 
+Writing at 0x0008bd98 ━━━━━━━━━━━━━╸                  46.4% 272.00kB/586.35kB [2s] 
+Writing at 0x000917d9 ━━━━━━━━━━━━━━╸                 49.1% 288.00kB/586.35kB [2s] 
+Writing at 0x00097aea ━━━━━━━━━━━━━━━╸                51.8% 304.00kB/586.35kB [2s] 
+Writing at 0x0009d792 ━━━━━━━━━━━━━━━━                54.6% 320.00kB/586.35kB [2s] 
+Writing at 0x000a33cf ━━━━━━━━━━━━━━━━━               57.3% 336.00kB/586.35kB [2s] 
+Writing at 0x000a8cd6 ━━━━━━━━━━━━━━━━━━              60.0% 352.00kB/586.35kB [2s] 
+Writing at 0x000af6d8 ━━━━━━━━━━━━━━━━━━╸             62.8% 368.00kB/586.35kB [2s] 
+Writing at 0x000b520a ━━━━━━━━━━━━━━━━━━━╸            65.5% 384.00kB/586.35kB [2s] 
+Writing at 0x000baf6e ━━━━━━━━━━━━━━━━━━━━            68.2% 400.00kB/586.35kB [2s] 
+Writing at 0x000c123f ━━━━━━━━━━━━━━━━━━━━━           70.9% 416.00kB/586.35kB [2s] 
+Writing at 0x000c7242 ━━━━━━━━━━━━━━━━━━━━━━          73.7% 432.00kB/586.35kB [2s] 
+Writing at 0x000cd54a ━━━━━━━━━━━━━━━━━━━━━━╸         76.4% 448.00kB/586.35kB [2s] 
+Writing at 0x000d373d ━━━━━━━━━━━━━━━━━━━━━━━╸        79.1% 464.00kB/586.35kB [3s] 
+Writing at 0x000d95de ━━━━━━━━━━━━━━━━━━━━━━━━╸       81.9% 480.00kB/586.35kB [3s] 
+Writing at 0x000dfbab ━━━━━━━━━━━━━━━━━━━━━━━━━       84.6% 496.00kB/586.35kB [3s] 
+Writing at 0x000e5af4 ━━━━━━━━━━━━━━━━━━━━━━━━━━      87.3% 512.00kB/586.35kB [3s] 
+Writing at 0x000ed736 ━━━━━━━━━━━━━━━━━━━━━━━━━━━     90.0% 528.00kB/586.35kB [3s] 
+Writing at 0x000f4ecb ━━━━━━━━━━━━━━━━━━━━━━━━━━━╸    92.8% 544.00kB/586.35kB [3s] 
+Writing at 0x000fa947 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸   95.5% 560.00kB/586.35kB [3s] 
+Writing at 0x00100cba ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   98.2% 576.00kB/586.35kB [3s] 
+Writing at 0x00104ea0 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.0% 586.35kB/586.35kB [3s] 
+Wrote 1003168 bytes (600423 compressed) at 0x00010000 in 3.6 seconds (2246.7 kbit/s).
+Verifying written data...
+Hash of data verified.
+
+Hard resetting via RTS pin...
+========================= [SUCCESS] Took 9.72 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+front          SUCCESS   00:00:09.721
+========================= 1 succeeded in 00:00:09.721 =========================

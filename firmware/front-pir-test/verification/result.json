@@ -1,0 +1,17 @@
+{
+  "device_mac": "ac:27:6e:7f:d3:20",
+  "records": 41,
+  "states": [
+    "IDLE",
+    "WARMUP"
+  ],
+  "raw_levels_after_warmup": [
+    0
+  ],
+  "ms_first": 0,
+  "ms_last": 40026,
+  "observed_motion_after_warmup": false,
+  "observed_idle_after_warmup": true,
+  "output_state_consistency_passed": true,
+  "boundary": "Serial telemetry only; physical light and controlled movement not independently observed."
+}

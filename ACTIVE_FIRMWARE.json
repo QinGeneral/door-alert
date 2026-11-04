@@ -1,0 +1,22 @@
+{
+  "active_source": "/Users/hanzhang/Projects/MyPlaygroud/door-alert/firmware/door-guard-first-success",
+  "build_basis": "Reconstruction of first successful paired source, original binary not archived",
+  "boards": {
+    "front": {
+      "mac": "ac:27:6e:7f:d3:20",
+      "application_sha256": "f9ecd6fe1bd62dbc8b00ff4d0993b551a3f4d767b7465c1759906c5087dd5bb8",
+      "application_bytes": 1003040,
+      "upload_log": "/Users/hanzhang/Projects/MyPlaygroud/door-alert/firmware/door-guard-first-success/verification/rollback/front-upload.log",
+      "project": "/Users/hanzhang/Projects/MyPlaygroud/door-alert/firmware/door-guard-first-success"
+    },
+    "rear": {
+      "mac": "ac:27:6e:7f:c3:b4",
+      "project": "/Users/hanzhang/Projects/MyPlaygroud/door-alert/firmware/door-guard-first-success",
+      "environment": "rear",
+      "application_sha256": "a177c268d44483e67f6d0cd47dac3f16f07a5c76f1dcd8546cb486bdea6cd49b",
+      "application_bytes": 1139392,
+      "upload_log": "/private/tmp/door-after-white-paper-restore.log",
+      "note": "Restored after white-paper ranging test passed (2026-11-04)"
+    }
+  }
+}
