@@ -94,6 +94,6 @@
 <text x="570" y="1062" style="font-size:22px;fill:#20354b">信号灯 Y → D7 / GPIO20</text>
 <text x="1075" y="1062" style="font-size:22px;fill:#20354b">信号灯 G → D10 / GPIO10</text>
 <text x="65" y="1110" style="font-size:22px;fill:#20354b">信号灯 GND → GND；G是绿灯输入，GND才是接地。线交叉无圆点表示不相连。</text>
-<text x="65" y="1148" style="font-size:20px;fill:#965814">AM312须支持3.3V供电；信号灯3.3V亮度待实测。改接线前拔掉USB。外设尚未实物验证。</text>
+<text x="65" y="1148" style="font-size:20px;fill:#965814">AM312 接 3.3V。信号灯为共阴且须自带限流电阻。改接线前拔掉 USB。</text>
 <text x="60" y="1202" style="font-size:20px;fill:#20354b">按XIAO ESP32-C3引脚绘制；若开发板外形/丝印不同，请勿照图直接接线。</text>
 </svg>
